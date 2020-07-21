@@ -18,7 +18,9 @@ export class ServersService {
   ];
 
   getServers() {
+    console.log('getServers()');
     return this.servers;
+
   }
 
   getServer(id: number) {
